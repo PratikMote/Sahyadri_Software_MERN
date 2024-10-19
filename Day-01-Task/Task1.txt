@@ -1,0 +1,10 @@
+DAY 1
+Task: Create a Simple Webpage
+Objective: Build a basic webpage with a heading, a paragraph, an image, a hyperlink, and
+some formatted text using bold and italic.
+Task : Create a Biography Page
+Objective: Create a webpage that displays a biography of a famous person using various
+HTML elements.
+Task : Build a Travel Destination Page
+Objective: Create a webpage to describe a favorite travel destination, including a
+heading, paragraphs, image, and a link.

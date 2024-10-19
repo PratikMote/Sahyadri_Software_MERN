@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Submission</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+        <div class="container">
+    <h1>Registration Form</h1>
+    <form >
+    <label><strong>First Name:</strong></label>
+    <input name="input" type="text"/><br><br>
+    <label><strong>Last Name:</strong></label>
+    <input name = "input" type = "text" required/><br><br>
+    <label><strong>Email Address:</strong></label>
+    <input name = "input" type = "email" required/><br><br>
+    <label><strong>Gender: </strong></label>
+    <input name="input" type = "radio" name="gender" value ="Male"/>
+    <label>Male</label>
+    <input name="input" type = "radio" name="gender"value="Female"/>
+    <label>Female</label>
+    <br><br>
+    <label><strong>Preferences:</strong></label>
+    <input name="input" type = "checkbox" value="Java"/>
+    <label>Java</label>
+    <input name="input" type = "checkbox" value="C"/>
+    <label>NodeJs</label>
+    <input name="input" type = "checkbox" value="JavaScript"/>
+    <label>JavaScript</label>
+    <input name="input" type = "checkbox" value="CSS"/>
+    <label>CSS</label>
+    <br><br>
+    <label><strong>Select State:</strong></label>
+    <select name="State">
+        <option value="MP">MP</option>
+        <option value="UP">UP</option>
+        <option value="MH">MH</option>
+        <option value="DL">DL</option>
+    </select><br><br>
+    <!-- <label>Datalist</label>
+    <datalist id="browser">
+        <option value="Edge">Edge</option>
+        <option value="FireFox">FireFox</option>
+        <option value="Chrome">Chrome</option>
+        <option value="Safari">Safari</option>
+    </datalist> -->
+    <label><Strong>Bio:</Strong></label>
+    <textarea name="message" rows="5" cols="33" placeholder="Enter your comments here..."></textarea><br><br>
+    <button type="button" onclick="handleclick()">Submit</button>
+    <input type="reset" value="reset"/>
+</form>
+        </div>
+<script>
+   const handleclick = ()=>{
+    alert("Your Data is submitted");
+    }
+</script>
+</body>
+</html>
